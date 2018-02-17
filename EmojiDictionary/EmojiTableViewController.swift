@@ -10,12 +10,12 @@ import UIKit
 
 class EmojiTableViewController: UITableViewController {
     
-    
-    @IBAction func editButtonTapped(_ sender: UIBarButtonItem) {
-        let tableViewEdditingMode = tableView.isEditing
-        tableView.setEditing(!tableViewEdditingMode, animated: true)
+    @IBAction func addButtonTapped(_ sender: UIBarButtonItem) {
+        _ = emojis
+        _ = 2
         
     }
+    
     
     var emojis: [Emoji] = [
         Emoji(symbol: "😀", name: "Grinning face", description: "A typical smiley face", usage: "happiness"),
@@ -41,11 +41,11 @@ class EmojiTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
         
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        navigationItem.rightBarButtonItem = editButtonItem
+        //editButtonItem is already predefined
+        navigationItem.leftBarButtonItem = editButtonItem
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -78,9 +78,9 @@ class EmojiTableViewController: UITableViewController {
         
         let emoji = emojis[indexPath.row]
         // Configure the cell...
-//        cell.textLabel?.text = "\(emoji.symbol) - \(emoji.name)"
-//        cell.detailTextLabel?.text = "\(emoji.description) - \(emoji.usage)"
-    
+        //        cell.textLabel?.text = "\(emoji.symbol) - \(emoji.name)"
+        //        cell.detailTextLabel?.text = "\(emoji.description) - \(emoji.usage)"
+        
         cell.update(with: emoji)
         cell.showsReorderControl = true
         return cell
@@ -133,6 +133,10 @@ class EmojiTableViewController: UITableViewController {
     
     
     
+    override func viewWillAppear(_ animated: Bool) {
+        print(emojis)
+        _ = 1
+    }
     
     
     /*
