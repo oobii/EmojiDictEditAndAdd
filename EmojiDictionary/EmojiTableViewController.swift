@@ -101,7 +101,7 @@ class EmojiTableViewController: UITableViewController {
         
     }
     
-    // To remove Delete indicator
+    // Delete indicator
     override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCellEditingStyle {
         return .delete
     }
