@@ -14,6 +14,7 @@
 		711530FF201676BA0052FF50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711530FE201676BA0052FF50 /* Main.storyboard */; };
 		715E416B20297C9400EFCDA8 /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715E416A20297C9400EFCDA8 /* EmojiTableViewCell.swift */; };
 		719179702038C78D00E6CBAF /* AddCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7191796F2038C78D00E6CBAF /* AddCellViewController.swift */; };
+		719179722038EDED00E6CBAF /* EmojiAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719179712038EDED00E6CBAF /* EmojiAll.swift */; };
 		71F62C622016A59E007F5E81 /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F62C612016A59E007F5E81 /* EmojiTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		711530FE201676BA0052FF50 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		715E416A20297C9400EFCDA8 /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
 		7191796F2038C78D00E6CBAF /* AddCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCellViewController.swift; sourceTree = "<group>"; };
+		719179712038EDED00E6CBAF /* EmojiAll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiAll.swift; sourceTree = "<group>"; };
 		71F62C612016A59E007F5E81 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +71,7 @@
 				71F62C612016A59E007F5E81 /* EmojiTableViewController.swift */,
 				715E416A20297C9400EFCDA8 /* EmojiTableViewCell.swift */,
 				7191796F2038C78D00E6CBAF /* AddCellViewController.swift */,
+				719179712038EDED00E6CBAF /* EmojiAll.swift */,
 			);
 			path = EmojiDictionary;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				711530FD201673E40052FF50 /* Emoji.swift in Sources */,
 				71F62C622016A59E007F5E81 /* EmojiTableViewController.swift in Sources */,
+				719179722038EDED00E6CBAF /* EmojiAll.swift in Sources */,
 				715E416B20297C9400EFCDA8 /* EmojiTableViewCell.swift in Sources */,
 				711530EB201673AD0052FF50 /* AppDelegate.swift in Sources */,
 				719179702038C78D00E6CBAF /* AddCellViewController.swift in Sources */,

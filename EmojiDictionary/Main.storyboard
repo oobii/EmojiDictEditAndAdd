@@ -78,7 +78,7 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="8S6-qj-xl4">
                             <connections>
                                 <action selector="addButtonTapped:" destination="Qk6-MF-w3S" id="qfW-9H-vVd"/>
-                                <segue destination="azM-99-8yX" kind="show" id="LTf-09-GFV"/>
+                                <segue destination="azM-99-8yX" kind="show" identifier="addCell" id="LTf-09-GFV"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -143,6 +143,10 @@
                             <constraint firstItem="k6e-2P-6cL" firstAttribute="top" secondItem="yoc-ge-odN" secondAttribute="bottom" id="v9l-G9-XqK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="addCellDescription" destination="6rL-fr-NJO" id="ugw-yz-K7U"/>
+                        <outlet property="addCellName" destination="PVO-li-v3w" id="5qt-Ei-qdq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GvR-Z8-yAN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
