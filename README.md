@@ -16,7 +16,7 @@ override func viewDidLoad() {
 ```
 
 
-Right Bar Button Item (for adding new Emoji) was added in the Storyboard and a segue back to the EmojiTableViewController was created
+Right Bar Button Item (for adding new Emoji) was added in the Storyboard and a segue to the AddCellViewController was created
 
 ![adding add button](https://github.com/oobii/EmojiDictEditAndAdd/blob/EditAndAdd/addButton.png)
 
