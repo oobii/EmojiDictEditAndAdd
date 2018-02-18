@@ -6,4 +6,4 @@ We pass emojis array between two ViewControllers using segues to save changes do
 
 ![adding add button](https://github.com/oobii/EmojiDictEditAndAdd/blob/EditAndAdd/addButton.png)
 
-
+![App](https://github.com/oobii/EmojiDictEditAndAdd/blob/EditAndAdd/app.png)
